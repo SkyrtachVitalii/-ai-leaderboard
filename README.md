@@ -40,22 +40,30 @@ Follow these steps to run the project locally:
 
 2. **Install dependencies:**
 
-    ````
-    npm install
+   ````bash
+   npm install
 
-    or
+   or
 
-    yarn install
+   yarn install
 
-    or
+   or
 
-    pnpm install
-    ```
+   pnpm install
+   ```
+
+   ````
 
 3. **Run the development server:**
-   npm run dev
 
-4. **Open your browser: Navigate to http://localhost:3000 to view the application.**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   ```bash
+   Navigate to http://localhost:3000 to view the application.
+   ```
 
 # 📂 Project Structure
 
@@ -77,5 +85,4 @@ The project follows the standard Next.js App Router structure:
 
     npm run lint - Runs ESLint checks.
 
-Developed by Vitalii Skyrtach
-````
+# Developed by Vitalii Skyrtach

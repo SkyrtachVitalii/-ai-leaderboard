@@ -36,20 +36,22 @@ Follow these steps to run the project locally:
    git clone [https://github.com/SkyrtachVitalii/-ai-leaderboard.git](https://github.com/SkyrtachVitalii/-ai-leaderboard.git)
    cd -ai-leaderboard
 
-2. **Install dependencies:**
-   npm install
    ```
 
-# or
+2. **Install dependencies:**
+    npm install
+   ```
+    or
+   ```
 
-yarn install
+    yarn install
 
-# or
+    or
 
-pnpm install
+    pnpm install
 
 3. **Run the development server:**
-npm run dev
+   npm run dev
 
 4. **Open your browser: Navigate to http://localhost:3000 to view the application.**
 

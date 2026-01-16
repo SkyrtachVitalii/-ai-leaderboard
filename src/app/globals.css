@@ -1,0 +1,44 @@
+/* /src/app/globals.css */
+
+@import "tailwindcss";
+
+@theme {
+
+  --color-background: #000000;
+  --color-foreground: #ededed;
+  
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-20: rgba(255, 255, 255, 0.2);
+  --color-white-60: rgba(255, 255, 255, 0.6);
+
+  --background-image-primary-gradient: linear-gradient(
+    90deg,
+    #ff4a59 0%,
+    #fc6f32 100%
+  );
+
+  --hero-padding-inline: clamp(20px, 5vw + 1rem, 80px); 
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-clash), sans-serif;
+  }
+  
+  .font-sans {
+    font-family: var(--font-inter), sans-serif;
+  }
+
+  .hero-padding-inline{
+    padding-inline: var(--hero-padding-inline);
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}

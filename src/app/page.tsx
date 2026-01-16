@@ -52,7 +52,8 @@ export default function Home() {
   });
 
   const heroY = useTransform(scrollY, [0, windowHeight], ["-10vh", "-22vh"]);
-  const statsY = useTransform(scrollY, [0, windowHeight], ["100vh", "24vh"]);
+  const scrollStatsY = `${isMobile ? "23vh" : "29vh"}`
+  const statsY = useTransform(scrollY, [0, windowHeight], ["100vh", scrollStatsY]);
   const statsOpacity = useTransform(scrollY, [0, windowHeight * 0.5], [0, 1]);
 
   const planetY = useKeyframes(scrollY, windowHeight, [
